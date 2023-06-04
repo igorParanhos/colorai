@@ -70,14 +70,14 @@ export const Main = () => {
         duration: 1,
         stagger: 0.1,
         ease: "power1.inOut",
-        y: "-=20vh",
+        y: "+=20vh",
         backgroundColor: "#FBFDA1",
       })
       .to(yellowBubblesRef.current, {
         duration: 1.5,
         stagger: 0.1,
         ease: "power1.inOut",
-        y: "-=40vh",
+        y: "-=10vh",
         backgroundColor: "#FBFDA1",
       })
       .addLabel("bubbles2");
@@ -103,7 +103,7 @@ export const Main = () => {
         stagger: 0.1,
         ease: "power1.inOut",
         y: "-=40vh",
-        backgroundColor: "#FBFDA1",
+        backgroundColor: "#EF9771",
       })
       .addLabel("bubbles2");
 

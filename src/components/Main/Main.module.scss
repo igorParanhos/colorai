@@ -11,7 +11,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
 }
 
 .container {
@@ -19,8 +21,6 @@
   flex-direction: column;
   gap: 22px;
   top: 50%;
-  position: absolute;
-  transform: translate(0, -50%);
   padding: 25px;
 }
 
@@ -59,7 +59,7 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
 }
 

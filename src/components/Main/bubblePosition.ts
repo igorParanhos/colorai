@@ -1,27 +1,27 @@
 
 export const initialBubblePosition = [
   {
-    bottom: "20%",
+    top: "70vh",
     left: "20%",
     "--size": "80px",
   },
   {
-    bottom: "25%",
+    top: "66vh",
     left: "35%",
     "--size": "40px",
   },
   {
-    bottom: "15%",
+    top: "78vh",
     left: "35%",
     "--size": "55px",
   },
   {
-    bottom: "-30%",
+    top: "80vh",
     left: "-10%",
     "--size": "500px",
   },
   {
-    bottom: "-40%",
+    top: "66vh",
     right: "-40%",
     "--size": "800px",
   },
@@ -29,42 +29,42 @@ export const initialBubblePosition = [
 
 export const initialYellowBubblePosition = [
   {
-    bottom: "-72%",
-    left: "20%",
-    "--size": "80px",
-    "--color": "#FBFDA1",
+    top: "155vh",
+    left: "25%",
+    "--size": "180px",
+    // "--color": "#FBFDA1",
   },
   {
-    bottom: "-66%",
+    top: "190vh",
     left: "15%",
-    "--size": "40px",
-    "--color": "#FBFDA1",
+    "--size": "100px",
+    // "--color": "#FBFDA1",
   },
   {
-    bottom: "-85%",
+    top: "180vh",
     right: "23%",
     "--size": "55px",
-    "--color": "#FBFDA1",
+    // "--color": "#FBFDA1",
   },
 ];
 
 export const initialEvilBubblePosition = [
   {
-    bottom: "-220%",
-    right: "35%",
+    top: "280vh",
+    right: "25%",
     "--size": "55px",
-    "--color": "#EF9771",
+    // "--color": "#EF9771",
   },
   {
-    bottom: "-230%",
-    left: "5%",
+    top: "290vh",
+    left: "10%",
     "--size": "300px",
-    "--color": "#EF9771",
+    // "--color": "#EF9771",
   },
   {
-    bottom: "-230%",
-    right: "10%",
+    top: "280vh",
+    right: "5%",
     "--size": "210px",
-    "--color": "#EF9771",
+    // "--color": "#EF9771",
   },
 ];
